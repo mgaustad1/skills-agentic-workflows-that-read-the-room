@@ -42,8 +42,8 @@ sources support a useful, practical update for GitHub developers. Keep summaries
 short and include a direct source link for every change based on the GitHub Blog
 or Changelog. Preserve Mona's editorial angle and existing page structure.
 
-Use the edit tool for the file change, then propose it with the configured
-`create-pull-request` safe output so Mona can review it; never write directly to
-the default branch or use another write path. If neither source has a relevant
-update, no meaningful edit is warranted, or the source evidence is unavailable,
-make no changes and call `noop` with a brief reason.
+Use the edit tool for the file change, then use the configured
+`create-pull-request` safe output to create a pull request for Mona to review;
+never write directly to the default branch or use another write path. If neither
+source has a relevant update, no meaningful edit is warranted, or the source
+evidence is unavailable, make no changes and call `noop` with a brief reason.
